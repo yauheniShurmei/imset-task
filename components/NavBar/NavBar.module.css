@@ -1,0 +1,62 @@
+.section {
+  background-color: #1a1a1a;
+  width: 100%;
+  margin-top: 0;
+  height: 60px;
+  font-size: 16px;
+}
+.section nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 1200px;
+  width: 80%;
+  margin: auto;
+  height: 100%;
+}
+.burger_menu {
+  width: 60px;
+  background-color: #3c3c3c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.burger_menu div {
+  width: 1.5rem;
+  height: 1px;
+  margin: 0.1rem;
+  background-color: white;
+  transition: 0.3s;
+}
+
+.section ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  list-style-type: none;
+  margin: 0;
+  height: 50%;
+  align-items: center;
+}
+.section ul li {
+  margin-left: 1rem;
+}
+.section span,
+.section a {
+  color: #909090;
+  cursor: pointer;
+}
+.section ul li:nth-of-type(2) a {
+  color: #84b82a;
+}
+.section input {
+  background-color: #1a1a1a;
+  border-width: 0 1px 0 1px;
+  border-color: #313131;
+  border-style: solid;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+}
